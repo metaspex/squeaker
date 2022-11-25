@@ -12,7 +12,7 @@ various offline or online solutions. When an online solution is produced, the C+
 Apache or Nginx, depending on compilation options.
 
 Although it looks simple, the ontology carries with it a number of behaviors that do not require additional coding. In particular,
-if a post is removed, a number of documents disappear automatically. Likes, replies, reposts disappear automatically.
+if a post is removed, the corresponding likes, replies and reposts disappear automatically.
 This is thanks to the high-level "link" construct, which enforces automatically referential integrity maintenance. Without
 running any form of SQL.
 
@@ -24,5 +24,5 @@ A post update service is added. It exposes an HTTP REST JSON in/JSON out service
 With indexes and using Metaspex's high-level cursors or link inversion capabilities, it is possible to find all posts a user
 has made, all replies on a given post, etc.
 
-Creating a post consumes merely microseconds in the application tier, making it capable to process thousands of posts per second
+Creating a post consumes mere microseconds in the application tier, making it capable to process thousands of posts per second
 on a handful of Raspberry Pi/ARM Cortex processors!
