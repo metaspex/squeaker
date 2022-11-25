@@ -19,7 +19,7 @@ running any form of SQL.
 No mention is made of a database. The mapping from logical names and physical databases is made entirely in the configuration
 file. It is therefore possible to deploy a binary.
 
-A post update service is added. It exposes an HTTP REST JSON in/JSON out service.
+A post update service is added as an example. It exposes an HTTP REST JSON in/JSON out service.
 
 With indexes and using Metaspex's high-level cursors or link inversion capabilities, it is possible to find all posts a user
 has made, all replies on a given post, etc.
