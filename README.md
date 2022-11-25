@@ -17,7 +17,9 @@ This is thanks to the high-level "link" construct, which enforces automatically 
 running any form of SQL.
 
 No mention is made of a database. The mapping from logical names and physical databases is made entirely in the configuration
-file. It is therefore possible to deploy the same binary on various databases for persistence (Couchbase, MongoDB, CouchDB).
+file. It is therefore possible to deploy the same binary on various databases for persistence (Couchbase, MongoDB, CouchDB). It
+is even possible to create links between documents between these databases, and referential integrity will still work.
+
 
 A post update service is added as an example. It exposes an HTTP REST JSON in/JSON out service.
 
