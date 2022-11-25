@@ -20,6 +20,7 @@ No mention is made of a database. The mapping from logical names and physical da
 file. It is therefore possible to deploy the same binary on various databases for persistence (Couchbase, MongoDB, CouchDB). It
 is even possible to create links between documents across different database products, and referential integrity will still work.
 
+Want automatic multitenancy? Replace root with entity.
 
 A post update service is added as an example. It exposes an HTTP REST JSON in/JSON out service.
 
