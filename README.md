@@ -23,3 +23,6 @@ A post update service is added. It exposes an HTTP REST JSON in/JSON out service
 
 With indexes and using Metaspex's high-level cursors or link inversion capabilities, it is possible to find all posts a user
 has made, all replies on a given post, etc.
+
+Creating a post consumes merely microseconds in the application tier, making it capable to process thousands of posts per second
+on a handful of Raspberry Pi/ARM Cortex processors!
