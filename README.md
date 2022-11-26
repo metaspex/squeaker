@@ -9,7 +9,7 @@ in the database). Arrows starting with a circled plus sign denote composite (one
 
 Do not be fooled by the simplicity. Metaspex is ~300 klocs worth of highly generic layered constructs that contain all the patterns
 that enterprise application developers apply repetitively. They factor in scalability, resilience and consistency. The application
-tier and the database tier are all vertically and horizontally scalable. And the absence of any SQL is due to a set of innovations
+and the database tier are both vertically and horizontally scalable. And the absence of any SQL is due to a set of innovations
 that allow to get rid of it. It looks naive, but in the facts it is not at all. It is just very concise and precise. And thanks
 to C++ zero-cost abstractions, it runs super fast.
 
