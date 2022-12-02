@@ -110,7 +110,7 @@ namespace squeaker {
     birth_type get_birth() const { return _birth; }
     void set_birth(birth_type birth){ _birth = birth; }
 
-    // Null means no blue check.
+    // Null means no range check.
     orange_check_p get_orange_check() const { return _orange_check; }
     void set_orange_check(const orange_check_p& bc){ _orange_check = bc; }
 
